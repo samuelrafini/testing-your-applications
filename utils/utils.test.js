@@ -12,6 +12,7 @@ it('should square a number', () =>{
     var res = utils.square(4);
 
     if(res !== 16){
-        throw new Error(`Expected 16, but got ${res}`);
+    throw new Error(`Expected 16, but got ${res}`);
     }
 });
+
